@@ -1,9 +1,13 @@
 # UrShop
 
-## Shoping Store Using ReactJs | Firebase | Redux | Stripe Payment
+## Shoping Store Built Using ReactJs | Firebase | Redux | Stripe Payment
 
 
 <img src="https://i.ibb.co/HGc82C8/brooke-lark-W1-B2-Lp-QOBx-A-unsplash.jpg" alt="smartmockups-kbyey1qx" border="0">
+<img src="https://www.linkpicture.com/q/screenshot1_2.png" alt="smartmockups-kbyey1qx" border="0">
+<img src="https://www.linkpicture.com/q/screenshot2_2.png" alt="smartmockups-kbyey1qx" border="0">
+<img src="https://www.linkpicture.com/q/screenshot3_1.png" alt="smartmockups-kbyey1qx" border="0">
+<img src="https://www.linkpicture.com/q/screesnshotsignin.png" alt="smartmockups-kbyey1qx" border="0">
 
 Ecommerce website build using React and Firebase.
 
@@ -46,6 +50,7 @@ npm run build
 
 ## ToDo
 - [x] Make Homepage
+- [x] Add & Remove from Cart Function
 - [x] Make checkout page
 - [x] Setup Firebase/authentication
 - [ ] Stripe Payment Gateway
