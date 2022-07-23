@@ -1,6 +1,6 @@
 # UrShop
 
-## Shoping Store Built Using ReactJs | Firebase | Redux | Stripe Payment
+## Shoping Store Built Using ReactJs (Redux, Router) | Firebase | Redux | Stripe Payment
 
 
 <img src="https://i.ibb.co/HGc82C8/brooke-lark-W1-B2-Lp-QOBx-A-unsplash.jpg" alt="smartmockups-kbyey1qx" border="0">
