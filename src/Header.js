@@ -15,12 +15,12 @@ function Header() {
       auth.signOut();
     }
   };
-  return (
+ return (
     <div className="header">
       <Link to="/">
         <img
           className="header_logo"
-          src="https://www.linkpicture.com/q/1657879166376_1.png"
+          src="https://i.ibb.co/BCyGjJ1/logo.png"
           alt="Logo"
         />
       </Link>

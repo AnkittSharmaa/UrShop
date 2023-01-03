@@ -12,7 +12,7 @@ function Checkout() {
       <div className="checkout_left">
         <img
           className="checkout_ad"
-          src="https://www.linkpicture.com/q/Screenshot-from-2022-07-16-14-00-05_1.png"
+          src="https://i.ibb.co/DGzT1pW/banner.png"
           alt="ad"
         />
         <div>

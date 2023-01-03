@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { auth } from "./firebase";
 
 function Login() {
-  const history = useNavigate();
+  const naviagate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -14,7 +14,7 @@ function Login() {
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
-        history.push("/");
+        naviagate("/");
       })
       .catch((error) => alert(error.message));
   };
@@ -27,7 +27,7 @@ function Login() {
       .then((auth) => {
         // it successfully created a new user with email and password
         if (auth) {
-          history.push("/");
+          naviagate("/");
         }
       })
       .catch((error) => alert(error.message));
@@ -38,7 +38,7 @@ function Login() {
       <Link to="/">
         <img
           className="login_logo"
-          src="https://www.linkpicture.com/q/1657879166376_1.png"
+          src="https://i.ibb.co/BCyGjJ1/logo.png"
         />
       </Link>
 
@@ -66,9 +66,7 @@ function Login() {
         </form>
 
         <p>
-          By signing-in you agree to the UrShop Conditions of Use & Sale. Please
-          see our Privacy Notice, our Cookies Notice and our Interest-Based Ads
-          Notice.
+          By signing-in you agree to the UrShop Conditions of Use & Sale.
         </p>
 
         <button onClick={register} className="login_registerButton">

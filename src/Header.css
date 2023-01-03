@@ -9,9 +9,10 @@
 }
 
 .header_logo{
-    width: 120px;
+    width: 100px;
     object-fit: contain;
     margin: 0 20px;
+    filter: brightness(150%);
     /* margin-top: 5px; */
 }
 

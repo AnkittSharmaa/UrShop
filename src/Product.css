@@ -41,3 +41,7 @@
   color: #111;
   padding: 8px;
 }
+.product > button:hover {
+  background-color: #111;
+  color: #b5f2f7;
+}
