@@ -9,7 +9,7 @@
 <img src="https://www.linkpicture.com/q/screenshot3_1.png" alt="smartmockups-kbyey1qx" border="0">
 <img src="https://www.linkpicture.com/q/screesnshotsignin.png" alt="smartmockups-kbyey1qx" border="0">
 
-Ecommerce website build using React and Firebase.
+Ecommerce website built using React and Firebase.
 
 ## Tech Info of App
 
@@ -32,13 +32,7 @@ npm i
 npm start
 ```
 
-## Deployment
 
-To deploy simply run
-
-```
-npm run build
-```
 
 ## Built With
 
